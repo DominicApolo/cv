@@ -1,0 +1,28 @@
+"*":
+  "atom-ide-ui":
+    "atom-ide-diagnostics-ui":
+      autoVisibility: true
+      showDirectoryColumn: true
+  "atom-material-ui":
+    colors:
+      abaseColor: "#80deea"
+      accentColor: "#528c94"
+      predefinedColor: "Cyan"
+  core:
+    disabledPackages: [
+      "linter"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+    uriHandlerRegistration: "always"
+  editor: {}
+  "exception-reporting":
+    userId: "c1f34396-1417-4b5d-b56e-cef7af34be15"
+  htmlhint:
+    hideOnNoErrors: true
+    useFoldModeAsDefault: true
+    validateOnChange: true
+  "linter-ui-default": {}
